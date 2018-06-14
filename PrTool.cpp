@@ -1,10 +1,10 @@
 // PrTool.cpp
-//
+// a very short code could achieve same thing of this code.
+// code is too long to do just one sample thing!!
 
 /** PrTool.cpp PDB2fasta
 *
 *		@Name: 		a small pdb/fasta tool
-*		@Author:	Li Zhixin
 *		@Version: 	1.0
 *		@Tool: 		gcc -std=c99
 *		@Start: 	----/04/24
