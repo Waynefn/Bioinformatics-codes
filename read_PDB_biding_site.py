@@ -1,8 +1,9 @@
 # Find PDB file binding sites description
 # By: Li Zhixin
-
 import os,sys
 Amino=("GLY","ALA","VAL","LEU","ILE","PRO","PHE","TYR","TRP","SER","THR","CYS","MET","ASN","GLN","ASP","GLU","LYS","ARG","HIS")  
+
+
 def writeSiteLine(fpdb,line,outputf):
     for i in range(0,49,11):
         cut=line[i:i+11]
@@ -37,10 +38,6 @@ def readBinding(path,ligndType,fpdb,outputf):
         line=file.readline()
     
             
-            
-        
-    
-
 def dealWithType(path,ligndType):
     print("\nProcessing "+path,end='')
     allFiles=os.listdir(path)
